@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mario Jump</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+
+        <audio id="coletando_cogumelo"
+            src="audios/audioColetouCogumelo.wav"></audio>
+
+        <audio id="completando_missao"
+            src="audios/audioCompletouMissao.mp3"></audio>
+
+        <audio loop id="esperando_iniciar"
+            src="audios/audioEsperandoIniciarJogo.mp3"></audio>
+
+        <audio loop id="game_over"
+            src="audios/audioGameOver.mp3"></audio>
+
+        <audio id="levou_dano"
+            src="audios/audioLevouDano.wav"></audio>
+
+        <audio autoplay loop id="missao_normal"
+            src="audios/audioMissaoNormal.mp3"></audio>
+
+        <audio id="missao_rapido"
+            src="audios/audioMissaoRapido.mp3"></audio>
+
+        <audio id="moeda"
+            src="audios/audioMoeda.wav"></audio>
+
+        <audio id="perdeu_vida"
+            src="audios/audioPerdeuVida.mp3"></audio>
+
+        <audio id="jump"
+            src="audios/audioPulo.wav"></audio>
+
+        <audio id="tempo_acabando"
+            src="audios/audioTempoAcabando.wav"></audio>
+
+        <audio id="vida_extra"
+            src="audios/audioVidaExtra.wav"></audio>
+        <div class="game-board">
+            <div id="menudojogo"></div>
+            <div id="inimigo"><img
+                    src="jogoMario-main/jogoMario-main/imagens/inimigoLadoEsquerdo.gif"
+                    alt="inimigo"></div>
+
+            <div id="tempo">400</div>
+            <div id="vidas">5</div>
+            <div id="moedas">0</div>
+            <div id="pontos">0</div>
+            <div id="personagem"></div>
+            <div id="bloco"></div>
+            <div id="bloco"></div>
+            <div><img src="images - Copia/images - Copia/clouds.png"
+                    class="nuvens"></div>
+            <div>
+                <button type="button" id="iniciar">Iniciar Jogo</button>
+                <button type="button" id="reiniciar">Reiniciar Jogo</button>
+            </div>
+                <img src="images - Copia/images - Copia/pipe.png" class="tubo">
+                <div><img src="images - Copia/images - Copia/mario.gif"
+                        class="mario"></div>
+            </div>
+            <img src="chao_cenario.png" class="grama_cenario" width="1080px">
+
+        </div>
+    </body>
+</html>
